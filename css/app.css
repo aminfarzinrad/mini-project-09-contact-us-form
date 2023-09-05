@@ -30,8 +30,41 @@ body{
 }
 .content-left{
     width: 25%;
-    background-color: goldenrod;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.content-left::before{
+    content: "";
+    width: 2px;
+    height: 70%;
+    background-color: #afafb6;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.info-marker{
+
+    text-align: center;
+    margin-bottom: 22px;
+}
+.shape{
+    font-size: 30px;
+    color: #3e2093;
+    margin-bottom: 10px;    
+}
+.title-info{
+    font-size: 19px;
+    font-weight: 500;
+}
+.text-info{
+    font-size: 14px;
+    display: block;
+    color: #afafb6;
 }
 .content-right{
     width: 75%;
