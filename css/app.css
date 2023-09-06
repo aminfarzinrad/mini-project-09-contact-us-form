@@ -108,6 +108,7 @@ body{
     margin-top: 12px;
     cursor: pointer;
     transition: all 0.3s ease;
+    outline: 0;
 }
 .btn:hover{
     background-color: #5029bc;
